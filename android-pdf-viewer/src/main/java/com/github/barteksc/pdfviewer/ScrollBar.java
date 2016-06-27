@@ -94,8 +94,9 @@ public class ScrollBar extends View {
         TypedArray a = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.ScrollBar, defStyleAttr, 0);
 
         try {
-            handlerColor = a.getColor(R.styleable.ScrollBar_sb_handlerColor, Color.parseColor("#FF4081"));
-            indicatorColor = a.getColor(R.styleable.ScrollBar_sb_indicatorColor, Color.parseColor("#FF4081"));
+            //#007aff
+            handlerColor = a.getColor(R.styleable.ScrollBar_sb_handlerColor, Color.parseColor("#007aff"));
+            indicatorColor = a.getColor(R.styleable.ScrollBar_sb_indicatorColor, Color.parseColor("#007aff"));
             indicatorTextColor = a.getColor(R.styleable.ScrollBar_sb_indicatorTextColor, Color.WHITE);
         } finally {
             a.recycle();
